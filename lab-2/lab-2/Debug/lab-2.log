@@ -1,0 +1,42 @@
+﻿  lab-2.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\thread(54,14): error C2672: "invoke": не найдена соответствующая перегруженная функция
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\thread(60): message : выполняется компиляция ссылки на экземпляр шаблон функции "unsigned int std::thread::_Invoke<_Tuple,0,1>(void *) noexcept"
+          with
+          [
+              _Tuple=_Tuple
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\thread(65): message : выполняется компиляция ссылки на экземпляр шаблон функции "unsigned int (__stdcall *std::thread::_Get_invoke<_Tuple,0,1>(std::integer_sequence<size_t,0,1>) noexcept)(void *)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\thread(88): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::thread::_Start<void(__cdecl &)(std::queue<Task,std::deque<Task,std::allocator<Task>>> &),std::queue<Task,std::deque<Task,std::allocator<Task>>>&>(_Fn,std::queue<Task,std::deque<Task,std::allocator<Task>>> &)"
+          with
+          [
+              _Fn=void (__cdecl &)(std::queue<Task,std::deque<Task,std::allocator<Task>>> &)
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xmemory(695): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::thread::thread<void(__cdecl &)(std::queue<Task,std::deque<Task,std::allocator<Task>>> &),std::queue<Task,std::deque<Task,std::allocator<Task>>>&,0>(_Fn,std::queue<Task,std::deque<Task,std::allocator<Task>>> &)"
+          with
+          [
+              _Fn=void (__cdecl &)(std::queue<Task,std::deque<Task,std::allocator<Task>>> &)
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector(689): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,void(__cdecl &)(std::queue<Task,std::deque<Task,std::allocator<Task>>> &),std::queue<Task,std::deque<Task,std::allocator<Task>>>&>(_Alloc &,_Objty *const ,void (__cdecl &)(std::queue<Task,std::deque<Task,std::allocator<Task>>> &),std::queue<Task,std::deque<Task,std::allocator<Task>>> &)"
+          with
+          [
+              _Alloc=std::allocator<std::thread>,
+              _Ty=std::thread,
+              _Objty=std::thread
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector(694): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,void(__cdecl &)(std::queue<Task,std::deque<Task,std::allocator<Task>>> &),std::queue<Task,std::deque<Task,std::allocator<Task>>>&>(_Alloc &,_Objty *const ,void (__cdecl &)(std::queue<Task,std::deque<Task,std::allocator<Task>>> &),std::queue<Task,std::deque<Task,std::allocator<Task>>> &)"
+          with
+          [
+              _Alloc=std::allocator<std::thread>,
+              _Ty=std::thread,
+              _Objty=std::thread
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector(707): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::vector<std::thread,std::allocator<std::thread>>::_Emplace_back_with_unused_capacity<void(__cdecl &)(std::queue<Task,std::deque<Task,std::allocator<Task>>> &),std::queue<Task,std::deque<Task,std::allocator<Task>>>&>(void (__cdecl &)(std::queue<Task,std::deque<Task,std::allocator<Task>>> &),std::queue<Task,std::deque<Task,std::allocator<Task>>> &)"
+D:\sasha\3-courses\paralelki\lab-2\lab-2\lab-2.cpp(137): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::vector<std::thread,std::allocator<std::thread>>::emplace_back<void(__cdecl &)(std::queue<Task,std::deque<Task,std::allocator<Task>>> &),std::queue<Task,std::deque<Task,std::allocator<Task>>>&>(void (__cdecl &)(std::queue<Task,std::deque<Task,std::allocator<Task>>> &),std::queue<Task,std::deque<Task,std::allocator<Task>>> &)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\thread(50,5): error C2893: Сбой при специализации функции-шаблона "unknown-type std::invoke(_Callable &&,_Ty1 &&,_Types2 &&...) noexcept(<expr>)".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\type_traits(1589): message : см. объявление "std::invoke"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\thread(50,5): message : Со следующими аргументами шаблона:
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\thread(50,5): message : "_Callable=void (__cdecl *)(std::queue<Task,std::deque<Task,std::allocator<Task>>> &)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\thread(50,5): message : "_Ty1=std::queue<Task,std::deque<Task,std::allocator<Task>>>"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\thread(50,5): message : "_Types2={}"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\thread(50,5): error C2780: unknown-type std::invoke(_Callable &&) noexcept(<expr>): требует аргументов: 1, имеется: 2
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\type_traits(1583): message : см. объявление "std::invoke"

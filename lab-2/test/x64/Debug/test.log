@@ -1,0 +1,5 @@
+﻿  test.cpp
+D:\sasha\3-courses\paralelki\lab-2\test\test.cpp(66,1): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+D:\sasha\3-courses\paralelki\lab-2\test\test.cpp(236,44): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+D:\sasha\3-courses\paralelki\lab-2\test\test.cpp(242,44): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  test.vcxproj -> D:\sasha\3-courses\paralelki\lab-2\x64\Debug\test.exe
